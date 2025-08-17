@@ -30,7 +30,7 @@ export default function AdminLogin() {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src="/hero2.mp4" type="video/mp4" />
+        <source src="/hero1.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay gelap */}
