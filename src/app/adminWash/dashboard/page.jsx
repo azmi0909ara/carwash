@@ -24,7 +24,7 @@ export default function AdminDashboard() {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (!user) {
-        router.push("/admin"); // jika belum login
+        router.push("/adminWash"); // jika belum login
       }
     });
     return () => unsubscribe();
