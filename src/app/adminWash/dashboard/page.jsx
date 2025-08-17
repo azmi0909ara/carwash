@@ -128,7 +128,7 @@ export default function AdminDashboard() {
 
   const handleLogout = async () => {
     await signOut(auth);
-    router.push("/admin");
+    router.push("/adminWash");
   };
 
   // 🔎 filter data booking
