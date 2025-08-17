@@ -195,10 +195,10 @@ export default function Booking() {
                 className="w-full px-4 py-2 rounded-lg bg-white/20 border border-white/30 text-black focus:outline-none focus:ring-2 focus:ring-yellow-400"
               >
                 <option value="">-- Pilih Layanan --</option>
-                <option value="cuci-express">Interior Wash</option>
-                <option value="cuci-detailing">Cuci Detailing</option>
-                <option value="polish">Polish & Wax</option>
-                <option value="salon">Exterior Wash</option>
+                <option value="Interior Wash">Interior Wash</option>
+                <option value="cuci detailing">Cuci Detailing</option>
+                <option value="Waxing Car">Polish & Wax</option>
+                <option value="Exterior Wash">Exterior Wash</option>
               </select>
               {errors.layanan && <p className="text-red-400 text-sm">{errors.layanan}</p>}
             </div>
